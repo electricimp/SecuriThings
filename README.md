@@ -4,6 +4,8 @@ This library wraps the [SecuriThings](http://www.securithings.com) API - allowin
 
 **To add this library to your project, add** `#require "SecuriThings.class.nut:1.0.0"` **to the top of your agent code.**
 
+If you find any issues with the implementation or should you have any questions about the library, please contact us: info@securithings.com for more details
+
 ## Description
 
 SecuriThings utilizes behavior analytics to analyze human & machine behavior and detect threats in real-time.
