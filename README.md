@@ -46,7 +46,7 @@ The required *callback* parameter is a function that will be executed upon compl
 | *headers* | Table | Squirrel table of returned HTTP headers |
 | *body* | String | Returned HTTP body (if any) |
 
-More information on these values can be found in the [**httprequest.sendasync()**](https://electricimp.com/docs/api/httprequest/sendasync/) documentation.
+More information on these values can be found in the [**httprequest.sendasync()**](https://developer.electricimp.com/api/httprequest/sendasync/) documentation.
 
 This method returns `false` if there was an error sending the event, or `true` otherwise. If the method returned `true`, further status check should be performed within the *callback* function.
 
@@ -56,7 +56,7 @@ This method returns an event object that can be passed into the *sendEvent()* me
 
 The *type* parameter takes a string that indicates the event type that is being performed: for example, "power_on", "temperature_set", "lock_activate".
 
-The optional *httpRequest* parameter is the same [**request**](https://electricimp.com/docs/api/httphandler/) parameter that is passed into the callback function registered by your agent code using [**http.onrequest()**](https://electricimp.com/docs/api/http/onrequest/).
+The optional *httpRequest* parameter is the same [**request**](https://developer.electricimp.com/api/httphandler/) parameter that is passed into the callback function registered by your agent code using [**http.onrequest()**](https://developer.electricimp.com/api/http/onrequest/).
 
 The agent code can add additional event data to the returned object before passing it to the *sendEvent()* method by invoking its various setter methods, described below.
 
